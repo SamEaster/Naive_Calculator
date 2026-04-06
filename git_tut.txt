@@ -21,3 +21,10 @@ git checkout -b <branch name>: build and move to branch
 git checkout <branch name>: move to branch
 git branch -d <branch name>: delete branch
 git merge <branch name>: to get the content of branch in current branch
+
+
+-- reset
+git reset <file name>: to reset the file, to reset all file don't name
+git reset HEAD~1: to go back to previous commit
+git reset <hash>: to go multiple step back
+git reset --hard <hash>: also to show the changes
