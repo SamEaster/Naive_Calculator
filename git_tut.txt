@@ -1,0 +1,22 @@
+git status: for status
+git init: to init git in folder
+git add .: to add whole files or instead of . write files name
+git commit -m "message"
+local, remote
+desktop github
+git push orgin main: upload local repo content to remote repo
+
+---
+git init
+git remote add origin <repo url>
+git remote -v: to know the repo url
+git branch: to check branch
+git branch -M main: to rename the branch
+git push orgin main
+
+
+-- branches
+git branch: tells about the active branch
+git checkout -b <branch name>: build and move to branch
+git checkout <branch name>: move to branch
+git branch -d <branch name>: delete branch
