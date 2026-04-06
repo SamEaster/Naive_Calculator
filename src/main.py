@@ -17,9 +17,9 @@ app.add_middleware(
 )
 
 
-# @app.get('/')
-# async def root():
-#     return {"message": "Programe is running!!"}
+@app.get('/')
+async def root():
+    return {"message": "Programe is running!!"}
 
 class User_name(BaseModel):
     name: str
